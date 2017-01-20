@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JavaDesignMode</string>
+    <string name="jump_2_build">Jump 2 Build</string>
+    <string name="jump_2_protoype">jump 2 Protoype</string>
+    <string name="jump_2_adapter">jump 2 Adapter</string>
+    <string name="jump_2_factory">jump 2 Factory</string>
+    <string name="jump_2_abstractfactory">jump 2 AbstractFactory</string>
+    <string name="jump_2_decorator">jump 2 decorator</string>
+    <string name="jump_2_proxy_mode">jump 2 ProxyMode</string>
+    <string name="jump_2_facade_mode">jump 2 facade mode</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="list"
+            type="java.util.List&lt;String>" />
+    </data>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/activity_build_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[0]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[1]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[2]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[3]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[4]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[5]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[6]}" />
+
+            <TextView
+                style="@style/style_tv"
+                android:text="@{list[7]}" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</layout>

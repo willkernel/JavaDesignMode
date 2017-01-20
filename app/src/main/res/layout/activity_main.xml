@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.willkernel.app.javadesignmode.ui.MainActivity" />
+    </data>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_factory"
+                app:onClickListener="@{activity.jump2Factory}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_abstractfactory"
+                app:onClickListener="@{activity.jump2AbstractFactory}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_build"
+                app:onClickListener="@{activity.jump2Build}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_protoype"
+                app:onClickListener="@{activity.jump2Prototype}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_adapter"
+                app:onClickListener="@{activity.jump2Adapter}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_decorator"
+                app:onClickListener="@{activity.jump2Decorator}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_proxy_mode"
+                app:onClickListener="@{activity.jump2ProxyMode}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_facade_mode"
+                app:onClickListener="@{activity.jump2FacadeMode}" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>
