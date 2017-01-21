@@ -12,9 +12,10 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_marginTop">@dimen/activity_horizontal_margin</item>
         <item name="android:padding">@dimen/activity_horizontal_margin</item>
-        <item name="android:background">#aeaeae</item>
+        <item name="android:background">#a0aaaaaa</item>
     </style>
 </resources>

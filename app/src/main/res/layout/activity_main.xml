@@ -57,6 +57,47 @@
                 style="@style/style_tv"
                 android:text="@string/jump_2_facade_mode"
                 app:onClickListener="@{activity.jump2FacadeMode}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_bridge"
+                app:onClickListener="@{activity.jump2Bridge}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_composite"
+                app:onClickListener="@{activity.jump2Composite}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_flyweight"
+                app:onClickListener="@{activity.jump2Flyweight}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_strategy"
+                app:onClickListener="@{activity.jump2Strategy}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_tem_method"
+                app:onClickListener="@{activity.jump2TemMethod}" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/colorAccent" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_observer"
+                app:onClickListener="@{activity.jump2Observer}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump_2_iterator"
+                app:onClickListener="@{activity.jump2Iterator}" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </layout>

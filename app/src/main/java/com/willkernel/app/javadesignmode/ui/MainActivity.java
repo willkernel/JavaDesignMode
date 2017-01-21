@@ -8,6 +8,7 @@ import android.view.View;
 import com.willkernel.app.javadesignmode.R;
 import com.willkernel.app.javadesignmode.databinding.ActivityMainBinding;
 
+/**http://blog.csdn.net/zhangerqing*/
 public class MainActivity extends BaseActivity {
 
     @Override
@@ -70,6 +71,55 @@ public class MainActivity extends BaseActivity {
         @Override
         public void onClick(View view) {
             jump2Aty(FacadeModeActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Bridge = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(BridgeModeActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Composite = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(CompositeModeActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Flyweight = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(FlyweightModeActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Strategy = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(StrategyModeActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2TemMethod = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(TemplateMethodActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Observer = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(ObserverActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Iterator = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(IteratorActivity.class);
         }
     };
 

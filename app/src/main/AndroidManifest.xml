@@ -24,6 +24,13 @@
         <activity android:name=".ui.ProxyModeActivity" />
         <activity android:name=".ui.FacadeModeActivity" />
         <activity android:name=".ui.BridgeModeActivity" />
+        <activity android:name=".ui.CompositeModeActivity" />
+        <activity android:name=".ui.FlyweightModeActivity" />
+        <activity android:name=".ui.StrategyModeActivity" />
+        <activity android:name=".ui.TemplateMethodActivity" />
+        <activity android:name=".ui.ObserverActivity" />
+        <activity android:name=".ui.IteratorActivity" />
+        <activity android:name=".ui.ResponsibilityChainActivity"></activity>
     </application>
 
 </manifest>

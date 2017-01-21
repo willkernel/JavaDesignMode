@@ -8,4 +8,11 @@
     <string name="jump_2_decorator">jump 2 decorator</string>
     <string name="jump_2_proxy_mode">jump 2 ProxyMode</string>
     <string name="jump_2_facade_mode">jump 2 facade mode</string>
+    <string name="jump_2_bridge">jump 2 bridge</string>
+    <string name="jump_2_composite">jump 2 Composite</string>
+    <string name="jump_2_flyweight">jump 2 flyweight</string>
+    <string name="jump_2_strategy">jump 2 strategy</string>
+    <string name="jump_2_tem_method">jump 2 template method</string>
+    <string name="jump_2_observer">jump 2 observer</string>
+    <string name="jump_2_iterator">jump 2 iterator</string>
 </resources>
