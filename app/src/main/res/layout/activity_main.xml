@@ -98,6 +98,26 @@
                 style="@style/style_tv"
                 android:text="@string/jump_2_iterator"
                 app:onClickListener="@{activity.jump2Iterator}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump2chain"
+                app:onClickListener="@{activity.jump2ResponsibilityChain}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump2command"
+                app:onClickListener="@{activity.jump2Command}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump2Memento"
+                app:onClickListener="@{activity.jump2Memento}" />
+
+            <Button
+                style="@style/style_tv"
+                android:text="@string/jump2State"
+                app:onClickListener="@{activity.jump2State}" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </layout>

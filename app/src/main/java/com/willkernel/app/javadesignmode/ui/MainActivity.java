@@ -8,7 +8,7 @@ import android.view.View;
 import com.willkernel.app.javadesignmode.R;
 import com.willkernel.app.javadesignmode.databinding.ActivityMainBinding;
 
-/**http://blog.csdn.net/zhangerqing*/
+/**Learn from http://blog.csdn.net/zhangerqing */
 public class MainActivity extends BaseActivity {
 
     @Override
@@ -120,6 +120,34 @@ public class MainActivity extends BaseActivity {
         @Override
         public void onClick(View view) {
             jump2Aty(IteratorActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2ResponsibilityChain = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(ResponsibilityChainActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Command = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(CommandPatternActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2Memento = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(MementoPatternActivity.class);
+        }
+    };
+
+    public View.OnClickListener jump2State = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            jump2Aty(StatePatternActivity.class);
         }
     };
 

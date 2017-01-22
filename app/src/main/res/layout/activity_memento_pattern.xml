@@ -11,7 +11,7 @@
 
         <variable
             name="activity"
-            type="com.willkernel.app.javadesignmode.ui.IteratorActivity" />
+            type="com.willkernel.app.javadesignmode.ui.MementoPatternActivity" />
     </data>
 
     <LinearLayout

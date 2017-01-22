@@ -15,4 +15,8 @@
     <string name="jump_2_tem_method">jump 2 template method</string>
     <string name="jump_2_observer">jump 2 observer</string>
     <string name="jump_2_iterator">jump 2 iterator</string>
+    <string name="jump2chain">jump 2 ResponsibilityChain</string>
+    <string name="jump2command">jump 2 command</string>
+    <string name="jump2Memento">jump 2 Memento</string>
+    <string name="jump2State">jump 2 state</string>
 </resources>

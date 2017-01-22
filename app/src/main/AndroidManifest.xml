@@ -30,7 +30,10 @@
         <activity android:name=".ui.TemplateMethodActivity" />
         <activity android:name=".ui.ObserverActivity" />
         <activity android:name=".ui.IteratorActivity" />
-        <activity android:name=".ui.ResponsibilityChainActivity"></activity>
+        <activity android:name=".ui.ResponsibilityChainActivity" />
+        <activity android:name=".ui.CommandPatternActivity" />
+        <activity android:name=".ui.MementoPatternActivity" />
+        <activity android:name=".ui.StatePatternActivity"></activity>
     </application>
 
 </manifest>
